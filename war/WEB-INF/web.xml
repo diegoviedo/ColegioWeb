@@ -12,6 +12,46 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Ieloudes</servlet-name>
 		<url-pattern>/ieloudes</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>agregar</servlet-name>
+		<servlet-class>pw2.agregar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregar</servlet-name>
+		<url-pattern>/agregar</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>verAlumnos</servlet-name>
+		<servlet-class>pw2.verAlumnos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verAlumnos</servlet-name>
+		<url-pattern>/verAlumnos</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>cambios</servlet-name>
+		<servlet-class>pw2.cambios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cambios</servlet-name>
+		<url-pattern>/cambios</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>modificar</servlet-name>
+		<servlet-class>pw2.modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificar</servlet-name>
+		<url-pattern>/modificar</url-pattern>
+	</servlet-mapping>
+	
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
