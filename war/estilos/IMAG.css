@@ -1,0 +1,54 @@
+*{
+	
+}
+
+.cabecera{
+	
+}
+.{
+}
+html {
+	background-color: #DCDCDC;
+}
+
+body {
+	margin-left: 150px;
+	width: 79.3%;
+	
+	background-color: white;
+}
+
+#hola {
+	width: 30px;
+	height: 30px; //
+	margin-left: 450px;
+	display: inline;
+}
+.scrollImag{
+	height: 200px;
+	width: 400px;
+}
+#sigue {
+	
+	
+	width: 100px;
+	height: 20px;
+}
+#hola1 {
+	width: 25px;
+	height: 25px;
+	margin-left: 10px; 
+	display: inline;
+}
+
+#logo {
+	margin: 20px 20px 20px 40px;
+
+}
+.imagenSesion {
+	width: 100px;
+	height: 120px;
+	display: inline;
+	margin:10px 3px 20px 3px ;
+	
+}

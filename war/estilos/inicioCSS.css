@@ -1,26 +1,63 @@
-
-
-
-
-#bien {
-	margin-left: 300px;
+.general{
+	
+	margin-left: 100px;
+	width: 1050px;
+	background-color: white;
+	
+	
 }
-
 * {
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-html {
-	background-color: #DCDCDC;
+.cabecera{
+	width: 1050px;
+}
+.titulo{
+	width: 650px;
+	height: 150px;
+	float: left;
 }
 
+.sesiones{
+	height: 100px;
+	width: 400px;
+	float: left;
+}
+.redes{
+	height: 50px;
+	width:400px;
+	float: left;
+	margin:0px 0px 0px 0px;
+}
+.menu{
+	width:1050px;
+	background-color: #222B5E;
+	float:left;
+}
+.scroll{
+	width:1050px;
+}
+.footer{
+	width:1050px;
+}
+.cuerpo{
+	width:1050px;
+}
+#bien {
+	margin-left: 300px;
+}
+
+
+
+
 body {
-	margin-left: 150px;
-	width: 79.3%;
-	
-	background-color: white;
+	background-image: URL('http://us.123rf.com/450wm/tupungato/tupungato1207/tupungato120700029/14341278-de-fondo-sin-fisuras-con-el-icono-de-la-escuela-objetos-y-s-mbolos-educaci-n-patr-n-de-dibujo.jpg?ver=6');
+    background-repeat: repeat;
+   
+   
 }
 
 p {
@@ -29,9 +66,9 @@ p {
 	margin: 20px;
 }
 
-#header { //
+#header { 
 	margin-LEFT: 200PX;
-	width: 1400px;
+	width: 1050px;
 	
 }
 
@@ -124,8 +161,8 @@ ul, ol {
 
 #hola {
 	width: 30px;
-	height: 30px; //
-	margin-left: 450px;
+	height: 30px;
+	margin-left: 10px; 
 	display: inline;
 }
 .scrollImag{
@@ -134,7 +171,7 @@ ul, ol {
 }
 #sigue {
 	
-	
+	margin: 10px 10px 10px 100px;
 	width: 100px;
 	height: 20px;
 }
@@ -146,13 +183,13 @@ ul, ol {
 }
 
 #logo {
-	margin: 20px 20px 20px 40px;
+	margin: 30px 20px 10px 140px;
 
 }
 .imagenSesion {
-	width: 100px;
-	height: 120px;
+	width: 90px;
+	height: 80px;
 	display: inline;
-	margin:10px 3px 20px 3px ;
+	margin:10px 3px 20px 25px ;
 	
 }

@@ -9,10 +9,12 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello App Engine</title>
+    <link rel="stylesheet" type="text/css" href="estilos/inicioCSS.css" media="screen" />
+    <title>Agregar Alumno</title>
   </head>
 
   <body>
+  	<jsp:include page="cabecerA.jsp"></jsp:include>
    <h1> AGREGAR ALUMNO </h1>
    
    <form action="agregar" method ="get">
@@ -45,5 +47,6 @@
     
     <input type="submit" value ="REGISTRAR">
    </form>
+   <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>

@@ -5,160 +5,20 @@
 <!-- "Quirks Mode". Replacing this declaration     -->
 <!-- with a "Standards Mode" doctype is supported, -->
 <!-- but may lead to some differences in layout.   -->
+
 <html>
-<head>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos/inicioCSS.css" media="screen" />
+    <title>Nosotros</title>
+  </head>
 
-
-
-<title>APLICACION</title>
-<style>
-#hola {
-	width: 50px;
-	height: 50px; //
-	margin-left: 450px;
-	display: inline;
-}
-
-#hola1 {
-	width: 50px;
-	height: 50px;
-	margin-left: 10px; //
-	display: inline;
-}
-
-#logo {
-	margin-top: 20px;
-	margin-left: 20px; //
-	display: inline;
-}
-
-#sigue {
-	margin-left: 300px;
-	width: 200px;
-	height: 56px;
-}
-
-* {
-	margin: 0px;
-	padding: 0px;
-}
-
-html {
-	background-color: #DCDCDC;
-}
-
-body {
-	margin-left: 150px;
-	width: 79.3%;
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
-}
-
-p {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #25275B; //
-	width: 73%;
-	margin: 25px;
-}
-
-#header { //
-	margin-LEFT: 200PX;
-	width: 1400px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-ul, ol {
-	list-style: none;
-}
-
-.nav>li {
-	float: left;
-}
-
-.nav li a {
-	background-color: #222B5E;
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 12px;
-	display: block;
-}
-
-.nav li a:hover {
-	background-color: #434343;
-}
-
-.nav li ul {
-	display: none;
-	position: absolute;
-	min-width: 100px;
-}
-
-.nav li:hover>ul {
-	display: block;
-}
-
-.nav li ul li {
-	position: relative;
-}
-
-.nav li ul li ul {
-	right: -140px;
-	top: 0px;
-}
-
-.main {
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
-}
-
-h4 {
-	margin: 50px;
-	color: #969494;
-}
-</style>
-
-</head>
-<body>
-	<img src="imagenes/logo.png" id="imagenes/logo">
-
-	<a href="administrador.html"><img src="imagenes/administrador.png" class="imagen"></a>
-
-	<a href="#"><img src="imagenes/docente.png" class="imagen"></a>
-
-	<a href="#"><img src="imagenes/alumno.png" class="imagen"></a>
-
-
-	<img src="imagenes/sigue.png" id="sigue">
-
-	<a
-		href="https://es-la.facebook.com/Colegio-Lourdes-Arequipa-515032385179570/"
-		target="ventanadinamica"> <img src="imagenes/facebook.jpg"
-		id="hola"></a>
-
-	<a href="https://www.youtube.com/channel/UCtGVyTWCEwnnkGQu8pQy0Rw"
-		target="ventanadinamica"><img src="imagenes/youtube.png"
-		id="hola1"></a>
-
-	<br>
-	<div id="header">
-
-		<ul class="nav">
-			<li><a href="index.html">INICIO</a></li>
-			<li><a href="nosotros.html">¿QUIENES SOMOS?</a></li>
-			<li><a href="servicios.html">SERVICIOS</a></li>
-
-			<li><a href="">PASTORAL</a></li>
-			<li><a href="">PERSONAL</a></li>
-
-
-			<li><a href="">AGENDA</a></li>
-			<li><a href="">ATENCION A PADRES</a></li>
-			<li><a href="">NOTICIAS</a></li>
-			<li><a href="">ADMISION</a></li>
-		</ul>
-	</div>
-	<img alt="" src="imagenes/8.png" width="100%" heigth="500px">
+  <body>
+  	<jsp:include page="cabecerA.jsp"></jsp:include>
+   
+   <div class=cuerpo>
+   
+   <img alt="" src="imagenes/8.png" width="100%" heigth="500px">
 
 
 
@@ -215,9 +75,8 @@ h4 {
 					<br>
 				</h4></td>
 		</tr>
-</body>
-<br>
-<br>
-<br>
-
+	</table>	
+		</div>
+   <jsp:include page="pieDePagina.jsp"></jsp:include>
+  </body>
 </html>
