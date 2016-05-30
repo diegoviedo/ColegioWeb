@@ -1,19 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="estilos/inicioCSS.css" media="screen" />
     <title>Nosotros</title>
-  </head>
-
-  <body>
+    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
    
    <div class=cuerpo>
@@ -24,22 +16,22 @@
 
 
 	<p>
-		Nuestro diferencial se basa en esta característica: un colegio cuyos
-		logros educativos se basan en conocer a cada niña para que, según sus
-		habilidades y capacidades, den lo mejor de sí; estimulándolos para que
+		Nuestro diferencial se basa en esta caracterÃ­stica: un colegio cuyos
+		logros educativos se basan en conocer a cada niÃ±a para que, segÃºn sus
+		habilidades y capacidades, den lo mejor de sÃ­; estimulÃ¡ndolos para que
 		mejoren algunos aspectos y potencien otros.<br>
-		<br> Optar por nuestro colegio es mucho más que una mera opción
+		<br> Optar por nuestro colegio es mucho mÃ¡s que una mera opciÃ³n
 		de conveniencia, es sumarse a una forma de ver el mundo y una manera
 		de relacionarse y hacer las cosas que reconoce su fuente en nuestra
-		concepción cristiana del mundo y de la vida, desde nuestra perspectiva
-		franciscana y en la huella que Santa María Eufrasia nos marcara.<br>
+		concepciÃ³n cristiana del mundo y de la vida, desde nuestra perspectiva
+		franciscana y en la huella que Santa MarÃ­a Eufrasia nos marcara.<br>
 		<br> Desde los principios que enunciamos como propios, asumimos
-		un desafío arduo pero apasionante:<br> Ayudar a nuestros alumnos
-		a crecer. La Institución educativa Nuestra Señora de Lourdes, es un
-		instituto perteneciente a las Hermanas de la Congregación del Buen
+		un desafÃ­o arduo pero apasionante:<br> Ayudar a nuestros alumnos
+		a crecer. La InstituciÃ³n educativa Nuestra SeÃ±ora de Lourdes, es un
+		instituto perteneciente a las Hermanas de la CongregaciÃ³n del Buen
 		Pastor.<br>
-		<br> Nos identificamos como escuela católica, es decir, un lugar
-		de educación integral de la persona humana a través de una propuesta
+		<br> Nos identificamos como escuela catÃ³lica, es decir, un lugar
+		de educaciÃ³n integral de la persona humana a travÃ©s de una propuesta
 		educativa que tiene su fundamento en Cristo.<br>
 		<br>
 		<br>
@@ -54,23 +46,23 @@
 		<tr>
 			<td></td>
 			<td><h4>
-					Somos una Institución Educativa Católica, inspirada en el Carisma
-					de la Congregación del Buen Pastor y en la pedagogía de Santa María
-					Eufrasía, nos esforzamos por descubrir la imagen de Dios en cada
-					persona, brindamos una formación Integral, científica humanista de
-					calidad, acorde con los avances de un mundo globalizado, prevención
-					y conservación del Medio Ambiente.<br>
+					Somos una InstituciÃ³n Educativa CatÃ³lica, inspirada en el Carisma
+					de la CongregaciÃ³n del Buen Pastor y en la pedagogÃ­a de Santa MarÃ­a
+					EufrasÃ­a, nos esforzamos por descubrir la imagen de Dios en cada
+					persona, brindamos una formaciÃ³n Integral, cientÃ­fica humanista de
+					calidad, acorde con los avances de un mundo globalizado, prevenciÃ³n
+					y conservaciÃ³n del Medio Ambiente.<br>
 					<br>
 					<br>
 				</h4></td>
 			<td><h4>
-					Ser una institución líder que brinde una educación de calidad
+					Ser una instituciÃ³n lÃ­der que brinde una educaciÃ³n de calidad
 					basada en los valores esenciales, con personal capacitado,
-					actualizado acorde al avance científico y tecnológico e
-					identificado con el carisma de la Congregación del Buen Pastor,
-					aplicando la Pedagogía de Santa María Eufrasía, en el quehacer
-					Educativo que garantice una formación integral y competente de
-					acuerdo a las exigencias y desafíos de la sociedad actual.<br>
+					actualizado acorde al avance cientÃ­fico y tecnolÃ³gico e
+					identificado con el carisma de la CongregaciÃ³n del Buen Pastor,
+					aplicando la PedagogÃ­a de Santa MarÃ­a EufrasÃ­a, en el quehacer
+					Educativo que garantice una formaciÃ³n integral y competente de
+					acuerdo a las exigencias y desafÃ­os de la sociedad actual.<br>
 					<br>
 					<br>
 				</h4></td>

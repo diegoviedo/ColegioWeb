@@ -1,3 +1,7 @@
+	<link rel="stylesheet" type="text/css" href="estilos/inicioCSS.css" media="screen" />
+</head>
+<body>
+<
 	<div class="general">
 	<div class="cabecera">
 		<div  class=titulo>
@@ -33,7 +37,7 @@
 				<li><a href="inicio.jsp">INICIO</a></li>
 				<li><a href="nosotros.jsp"> ¿QUIENES SOMOS?</a></li>
 				<li><a href="servicios.jsp">SERVICIOS</a></li>
-				<li><a href="">PASTORAL</a></li>
+				<li><a href="alumnoEliminar.jsp">PASTORAL</a></li>
 				<li><a href="">PERSONAL</a></li>
 				<li><a href="">AGENDA</a></li>
 				<li><a href="">ATENCION A PADRES</a></li>

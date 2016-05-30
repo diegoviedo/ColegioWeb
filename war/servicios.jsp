@@ -1,19 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="estilos/inicioCSS.css" media="screen" />
+    
     <title>Agregar Alumno</title>
-  </head>
-
-  <body>
+ 
   	<jsp:include page="cabecerA.jsp"></jsp:include>
    	<div class=cuerpo>
    	
@@ -24,20 +17,20 @@
 	<img alt="" src="imagenes/inicial.jpg" width="50%" heigth="50%">
 
 	<h4>
-		Se utilizará la Metodología Activa. Un método es activo, cuando genera
-		en la estudiante una acción que resulta del interés, la necesidad o la
-		curiosidad de la niña. La Docente debe crear esta curiosidad o
-		necesidad ideando una situación de aprendizaje estimulante, a partir
-		de ella la estudiante hará una serie de actividades o acciones. Al
-		término del último año en el Nivel Inicial, nuestras niñas han logrado
+		Se utilizarÃ¡ la MetodologÃ­a Activa. Un mÃ©todo es activo, cuando genera
+		en la estudiante una acciÃ³n que resulta del interÃ©s, la necesidad o la
+		curiosidad de la niÃ±a. La Docente debe crear esta curiosidad o
+		necesidad ideando una situaciÃ³n de aprendizaje estimulante, a partir
+		de ella la estudiante harÃ¡ una serie de actividades o acciones. Al
+		tÃ©rmino del Ãºltimo aÃ±o en el Nivel Inicial, nuestras niÃ±as han logrado
 		su desarrollo personal, afectivo y social, es decir:
 
 		<ul>
 			<ol>
 				<li>Es un ser sociable, independiente, participativa,
-					solidaria, crítica, observadora, respetuosa y creativa.</li>
+					solidaria, crÃ­tica, observadora, respetuosa y creativa.</li>
 				<li>Se reconoce como persona.</li>
-				<li>Valora positivamente sus características biológicas.</li>
+				<li>Valora positivamente sus caracterÃ­sticas biolÃ³gicas.</li>
 				<li>Se identifica como miembro de una familia y de una
 					comunidad.</li>
 			</ol>
@@ -52,23 +45,23 @@
 	<img alt="" src="imagenes/prim.jpg" width="100%" heigth="100px">
 
 	<h4>
-		La práctica pedagógica debe propiciar el desarrollo de capacidades,
-		conocimientos y actitudes en relación con el entorno en el que se
-		desenvuelven las niñas. En este sentido, el docente asume, el rol de
+		La prÃ¡ctica pedagÃ³gica debe propiciar el desarrollo de capacidades,
+		conocimientos y actitudes en relaciÃ³n con el entorno en el que se
+		desenvuelven las niÃ±as. En este sentido, el docente asume, el rol de
 		mediador entre el objeto de aprendizaje, los recursos educativos y los
-		estudiantes. Una buena práctica pedagógica deberá tener en cuenta una
-		serie de estrategias metodológicas haciendo uso de experiencias
+		estudiantes. Una buena prÃ¡ctica pedagÃ³gica deberÃ¡ tener en cuenta una
+		serie de estrategias metodolÃ³gicas haciendo uso de experiencias
 		previas.
 
 		<ul>
 			<ol>
 				<li>Se reconoce como persona, valora positivamente sus
-					características biológicas, psicomotoras, intelectuales, afectivas
+					caracterÃ­sticas biolÃ³gicas, psicomotoras, intelectuales, afectivas
 					y sociales, y manifiesta sentimientos de pertenencia seguridad y
-					confianza, en interacción con su medio natural y social.</li>
+					confianza, en interacciÃ³n con su medio natural y social.</li>
 				<li>Se identifica con su realidad sociocultural, local regional
 					y nacional y con su historia, y es consciente de su rol presente y
-					futuro, en el proceso de desarrollo y defensa del país.</li>
+					futuro, en el proceso de desarrollo y defensa del paÃ­s.</li>
 				<li>Expresa con seguridad sus sentimientos, ideas, utilizando
 					lenguajes y respeta las opiniones divergentes, en sus relaciones
 					interpersonales.</li>
@@ -88,14 +81,14 @@
 		<ul>
 			<ol>
 				<li>Acepta y asume en su vida diaria el Amor misericordioso de
-					Jesús Buen Pastor y es capaz de acoger, reconciliar, perdonar y
-					amar al prójimo sin discriminación.</li>
+					JesÃºs Buen Pastor y es capaz de acoger, reconciliar, perdonar y
+					amar al prÃ³jimo sin discriminaciÃ³n.</li>
 				<li>Como hija de Dios, asume el liderazgo con actitudes desde
-					la pedagogía de Santa María Eufrasia (veraz, justa, optimista,
-					crítica, prudente, reflexiva, confiable, humana y solidaria)</li>
+					la pedagogÃ­a de Santa MarÃ­a Eufrasia (veraz, justa, optimista,
+					crÃ­tica, prudente, reflexiva, confiable, humana y solidaria)</li>
 				<li>Se comunica asertivamente, demostrando veracidad y
 					capacidad de escucha, para llegar a acuerdos y construir consensos.</li>
-				<li>Manifiesta una formación científica y humanista que le
+				<li>Manifiesta una formaciÃ³n cientÃ­fica y humanista que le
 					permite acceder a niveles de estudio superior.</li>
 			</ol>
 		</ul>
