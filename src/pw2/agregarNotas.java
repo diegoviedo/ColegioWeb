@@ -46,7 +46,7 @@ public class agregarNotas extends HttpServlet{
 			 q.closeAll();
 		}
 		resp.getWriter().print(
-				"<input type='submit' name='boton' value='MODIFICAR ALUMNO'><br><br>"+
+				//"<input type='submit' name='boton' value='MODIFICAR ALUMNO'><br><br>"+
 				"<input type='submit' name='boton' value='ELIMINAR ALUMNO'></form>"
 				);
 	}
