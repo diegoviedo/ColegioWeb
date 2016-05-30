@@ -7,6 +7,7 @@
     <title>Agregar Alumno</title>
    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
+  	
    <h1> AGREGAR ALUMNO </h1>
    
    <form action="agregar" method ="get">
@@ -33,12 +34,12 @@
    		
    		Agregar foto: 
    		<input type="file"  name="archivo"><br>
-	
+   
+   
+  	 	
     
     <input type="submit" value ="REGISTRAR">
    </form>
-   
-   
    <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>
