@@ -52,6 +52,128 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	
+	
+	
+	<servlet>
+		<servlet-name>agregarAlum</servlet-name>
+		<servlet-class>pw2.agregarAlum</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarAlum</servlet-name>
+		<url-pattern>/agregarAlum</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>modificarDoc</servlet-name>
+		<servlet-class>pw2.modificarDoc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarDoc</servlet-name>
+		<url-pattern>/modificarDoc</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>cambiosDoc</servlet-name>
+		<servlet-class>pw2.cambiosDoc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cambiosDoc</servlet-name>
+		<url-pattern>/cambiosDoc</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+	<servlet>
+		<servlet-name>verDocentes</servlet-name>
+		<servlet-class>pw2.verDocentes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verDocentes</servlet-name>
+		<url-pattern>/verDocentes</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+			
+	<servlet>
+		<servlet-name>agregarDoc</servlet-name>
+		<servlet-class>pw2.agregarDoc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarDoc</servlet-name>
+		<url-pattern>/agregarDoc</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>agregarComunicado</servlet-name>
+		<servlet-class>pw2.agregarComunicado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarComunicado</servlet-name>
+		<url-pattern>/agregarComunicado</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>verComunicados</servlet-name>
+		<servlet-class>pw2.verComunicados</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verComunicados</servlet-name>
+		<url-pattern>/verComunicados</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>eliminarComunicado</servlet-name>
+		<servlet-class>pw2.eliminarComunicado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarComunicado</servlet-name>
+		<url-pattern>/eliminarComunicado</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>sesionDocente</servlet-name>
+		<servlet-class>pw2.sesionDocente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sesionDocente</servlet-name>
+		<url-pattern>/sesionDocente</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>iniciandoSesion</servlet-name>
+		<servlet-class>pw2.iniciandoSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>iniciandoSesion</servlet-name>
+		<url-pattern>/iniciandoSesion</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>agregarNotas</servlet-name>
+		<servlet-class>pw2.agregarNotas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregarNotas</servlet-name>
+		<url-pattern>/agregarNotas</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
 	<welcome-file-list>
 		<welcome-file>inicio.jsp</welcome-file>
 	</welcome-file-list>
