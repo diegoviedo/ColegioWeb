@@ -15,7 +15,7 @@ import epis.unsa.PMF;
 import epis.unsa.alumno;
 
 @SuppressWarnings("serial")
-public class cambios extends HttpServlet {
+public class cambiosDoc extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 		PrintWriter out = resp.getWriter();
@@ -23,12 +23,12 @@ public class cambios extends HttpServlet {
 		String boton = req.getParameter("boton");
 		resp.setContentType("text/html");
 		PersistenceManager pm = PMF.get().getPersistenceManager();
-		if(boton.equals("ELIMINAR ALUMNO")){
+		if(boton.equals("ELIMINAR DOCENTE")){
 
-			Query q = pm.newQuery(alumno.class);
+			Query q = pm.newQuery(docente.class);
 			try{
-			List<alumno> alumnos = (List<alumno>) q.execute();
-				for(alumno p: alumnos){
+			List<docente> docentes = (List<docente>) q.execute();
+				for(docente p: docentes){
 					if(codigo.equals(p.getCodigo()))
 					pm.deletePersistent(p);
 				}
@@ -60,7 +60,7 @@ public class cambios extends HttpServlet {
 				
 				
 				req.setAttribute("codigo", codigo);
-				RequestDispatcher rd = req.getRequestDispatcher("/modificar");
+				RequestDispatcher rd = req.getRequestDispatcher("/modificarDoc");
 				rd.forward(req, resp);
 			}catch(Exception e){
 				System.out.println(e);

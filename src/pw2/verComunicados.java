@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @SuppressWarnings("serial")
-public class verAlumnos extends HttpServlet{
+public class verComunicados extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
@@ -20,15 +20,17 @@ public class verAlumnos extends HttpServlet{
 		PrintWriter out = resp.getWriter();
 		resp.setContentType("text/html");
 		
-		Query q = pm.newQuery(alumno.class);
-		resp.getWriter().print("<h1>LISTA DE ALUMNOS</h1>");
+		Query q = pm.newQuery(comunicado.class);
+
+		resp.getWriter().print("<h1>LISTA DE COMUNICADOS</h1>");
 		try{
 			
-			List<alumno> alumnos = (List<alumno>) q.execute();
-			out.println("<form action='cambios'>");
-			for(alumno p: alumnos){
-				out.print("<input type='radio' name='codigo' value='"+p.getCodigo()+"'>");
-				out.print(p+"<br>");
+			List<comunicado> comunicados = (List<comunicado>) q.execute();
+	
+			out.println("<form action='eliminarComunicado'>");
+			for(comunicado p: comunicados){
+				out.print("<input type='radio' name='comunicado' value='"+p.getComunicado()+"'>");
+				out.print(p.getComunicado()+"<br>"+"PUBLICADO EL:"+p.getFecha()+"<br><br>");
 				
 			}
 
@@ -38,9 +40,7 @@ public class verAlumnos extends HttpServlet{
 			 q.closeAll();
 		}
 		resp.getWriter().print(
-				"<input type='submit' name='boton' value='MODIFICAR ALUMNO'><br><br>"+
-				"<input type='submit' name='boton' value='ELIMINAR ALUMNO'></form>"
+				"<input type='submit' name='boton' value='ELIMINAR COMUNICADO'></form>"
 				);
 	}
 }
-	

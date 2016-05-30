@@ -15,21 +15,21 @@ import epis.unsa.PMF;
 import epis.unsa.alumno;
 
 @SuppressWarnings("serial")
-public class cambios extends HttpServlet {
+public class eliminarComunicado extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 		PrintWriter out = resp.getWriter();
-		String codigo = req.getParameter("codigo");
-		String boton = req.getParameter("boton");
+		String comunicado = req.getParameter("comunicado");
+		
 		resp.setContentType("text/html");
 		PersistenceManager pm = PMF.get().getPersistenceManager();
-		if(boton.equals("ELIMINAR ALUMNO")){
 
-			Query q = pm.newQuery(alumno.class);
+			Query q = pm.newQuery(comunicado.class);
 			try{
-			List<alumno> alumnos = (List<alumno>) q.execute();
-				for(alumno p: alumnos){
-					if(codigo.equals(p.getCodigo()))
+		
+			List<comunicado> comunicados = (List<comunicado>) q.execute();
+				for(comunicado p: comunicados){
+					if(comunicado.equals(p.getComunicado()))
 					pm.deletePersistent(p);
 				}
 				try{
@@ -53,26 +53,9 @@ public class cambios extends HttpServlet {
 				 q.closeAll();
 			}
 			
-			
-		}else{
-			
-			try{
-				
-				
-				req.setAttribute("codigo", codigo);
-				RequestDispatcher rd = req.getRequestDispatcher("/modificar");
-				rd.forward(req, resp);
-			}catch(Exception e){
-				System.out.println(e);
-			}finally{
-				if( pm.currentTransaction().isActive() ){
-					pm.currentTransaction().rollback();
-			    }
-			}
+
 		
 		
-		
-		}
 		
 		
 		

@@ -5,7 +5,7 @@ import javax.jdo.annotations.Persistent;
 @PersistenceCapable
 public class alumno {
 	@Persistent
-	String codigo,contrasena,nombres,apellidos,direccion,sexo,año;
+	String codigo,contrasena,nombres,apellidos,direccion,sexo,anho;
 	
 	public alumno(){
 		
@@ -35,8 +35,8 @@ public class alumno {
 		sexo=sex;
 	}
 	
-	public void setAño(String a){
-		año=a;
+	public void setAnho(String a){
+		anho=a;
 	}
 
 
@@ -65,8 +65,8 @@ public class alumno {
 		return sexo;
 	}
 	
-	public String getAño(){
-		return año;
+	public String getAnho(){
+		return anho;
 	}
 	
 	@Override
