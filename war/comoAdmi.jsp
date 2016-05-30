@@ -10,7 +10,7 @@
   	
    <h1> ALUMNOS </h1>
    
-   <form action="agregarAlumno.jsp" method ="get">
+   <form action="alumnoAgregar.jsp" method ="get">
     <input type="submit" value ="Agregar Alumno">
    </form>
    
