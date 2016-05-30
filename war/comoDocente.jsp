@@ -1,21 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello App Engine</title>
-  </head>
-
-  <body>
-  
-  
-   <h1> NOTAS </h1>
+    <title>Agregar Alumno</title>
+   
+  	<jsp:include page="cabecerA.jsp"></jsp:include>
+  	<h1>DOCENTE</h1>
+   <h2> NOTAS </h2>
    
    <form action="agregarNotas" method ="get">
     <input type="submit" value ="Agregar Notas">
@@ -23,13 +16,16 @@
    
    
     
-   <h1> TAREAS </h1>
+   <h2> TAREAS </h2>
    
    <form action="agregarTarea.jsp" method ="get">
     <input type="submit" value ="Agregar Tarea">
    </form>
    
    
-   
+ 
+    
+   <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>
+ 
