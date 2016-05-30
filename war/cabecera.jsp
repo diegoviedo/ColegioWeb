@@ -72,3 +72,5 @@
 				src="imagenes/scroll6.jpg" class=scrollImag >
 			
 		</marquee>
+		
+	<div class=cuerpo>

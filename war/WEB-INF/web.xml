@@ -48,7 +48,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>modificar</servlet-name>
-		<url-pattern>/modificar</url-pattern>
+	 	<url-pattern>/modificar</url-pattern>
 	</servlet-mapping>
 	
 	

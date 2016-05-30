@@ -1,4 +1,4 @@
-
+	</div>	
 	<div class=footer>
 			<img src="imagenes/UNO.png" width=1050px  >
 			<div id='cuerpo'>
