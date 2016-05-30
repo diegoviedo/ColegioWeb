@@ -142,12 +142,34 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
-		<servlet-name>agregarNotas</servlet-name>
-		<servlet-class>pw2.agregarNotas</servlet-class>
+		<servlet-name>notasAlumnos</servlet-name>
+		<servlet-class>pw2.notasAlumnos</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>agregarNotas</servlet-name>
-		<url-pattern>/agregarNotas</url-pattern>
+		<servlet-name>notasAlumnos</servlet-name>
+		<url-pattern>/notasAlumnos</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>eliminarNotas</servlet-name>
+		<servlet-class>pw2.eliminarNotas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eliminarNotas</servlet-name>
+		<url-pattern>/eliminarNotas</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>guardarNotas</servlet-name>
+		<servlet-class>pw2.guardarNotas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarNotas</servlet-name>
+		<url-pattern>/guardarNotas</url-pattern>
 	</servlet-mapping>
 	
 	
