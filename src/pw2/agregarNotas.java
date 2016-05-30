@@ -31,7 +31,8 @@ public class agregarNotas extends HttpServlet{
 			for(alumno p: alumnos){
 				System.out.println(alumnos.size()+"\t"+p.getAnho()+"\t"+anho+"  "+ii);
 				if(p.getAnho().equals(anho)){
-				out.print("------- <label>"+p.toString()+"</label>");
+					out.print("<input type='radio' name='codigo' value='"+p.getCodigo()+"'>");
+					out.print("------- <label>"+p.toString()+"</label>");
 				out.print("<select name='nota'>");
 				for(int i=0;i<21;i++){
 					out.print("<option>"+i+"</option>");
@@ -46,8 +47,7 @@ public class agregarNotas extends HttpServlet{
 			 q.closeAll();
 		}
 		resp.getWriter().print(
-				//"<input type='submit' name='boton' value='MODIFICAR ALUMNO'><br><br>"+
-				"<input type='submit' name='boton' value='ELIMINAR ALUMNO'></form>"
+				"<input type='submit' name='boton' value='REGISTRAR NOTA'></form>"
 				);
 	}
 }

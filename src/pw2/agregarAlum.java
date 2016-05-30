@@ -34,8 +34,12 @@ public class agregarAlum extends HttpServlet {
 		try{
 			pm.makePersistent(a);
 
+<<<<<<< HEAD
 			resp.sendRedirect("../alumnoCorrecto.jsp");
 
+=======
+			resp.sendRedirect("alumnoCorrecto.jsp");
+>>>>>>> origin/master
 
 		}catch(Exception e){
 			System.out.println(e);
