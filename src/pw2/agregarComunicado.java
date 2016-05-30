@@ -7,7 +7,7 @@ import javax.jdo.PersistenceManager;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.http.*;
 
-import epis.unsa.PMF;
+import pw2.PMF;
 
 @SuppressWarnings("serial")
 public class agregarComunicado extends HttpServlet {

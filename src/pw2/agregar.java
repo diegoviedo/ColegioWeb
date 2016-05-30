@@ -27,7 +27,7 @@ public class agregar extends HttpServlet {
 		a.setApellidos(apellidos);
 		a.setDireccion(direccion);
 		a.setSexo(sexo);
-		a.setAño(año);
+		a.setAnho(año);
 	//	resp.getWriter().print(codigo+"\t"+contraseña+"\t"+nombres+"\t"+apellidos+"\t"+direccion+"\t"+sexo+"\t"+año+"\t");
 	//	resp.getWriter().print(a.getCodigo()+"\t"+a.getContraseña()+"\t"+a.getNombres()+"\t"+a.getApellidos()+"\t"+a.getDireccion()+"\t"+a.getSexo()+"\t"+a.getAño()+"\t"+"ASDKADNKANDASKDNAKSDN");
 		resp.getWriter().print("<!DOCTYPE html>"		 

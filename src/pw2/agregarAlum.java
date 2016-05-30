@@ -5,7 +5,7 @@ import java.io.IOException;
 import javax.jdo.PersistenceManager;
 import javax.servlet.http.*;
 
-import epis.unsa.PMF;
+import pw2.PMF;
 
 @SuppressWarnings("serial")
 public class agregarAlum extends HttpServlet {

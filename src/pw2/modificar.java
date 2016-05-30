@@ -8,13 +8,13 @@ import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
 import javax.servlet.http.*;
 
-import epis.unsa.PMF;
+import pw2.PMF;
 
 @SuppressWarnings("serial")
 public class modificar extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
-
+		
 		String codigo = (String) req.getAttribute("codigo");
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		PrintWriter out = resp.getWriter();

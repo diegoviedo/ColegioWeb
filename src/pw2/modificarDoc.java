@@ -8,7 +8,7 @@ import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
 import javax.servlet.http.*;
 
-import epis.unsa.PMF;
+import pw2.PMF;
 
 @SuppressWarnings("serial")
 public class modificarDoc extends HttpServlet {

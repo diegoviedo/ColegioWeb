@@ -11,8 +11,8 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.http.*;
 
 
-import epis.unsa.PMF;
-import epis.unsa.alumno;
+import pw2.PMF;
+import pw2.alumno;
 
 @SuppressWarnings("serial")
 public class cambiosDoc extends HttpServlet {
