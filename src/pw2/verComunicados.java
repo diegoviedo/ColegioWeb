@@ -18,7 +18,7 @@ public class verComunicados extends HttpServlet{
 			throws ServletException, IOException {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		PrintWriter out = resp.getWriter();
-		resp.setContentType("text/html");
+		resp.setContentType("text/JSP");
 		
 		Query q = pm.newQuery(comunicado.class);
 
