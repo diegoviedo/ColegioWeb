@@ -10,7 +10,7 @@
   	
    <h1> AGREGAR ALUMNO </h1>
    
-   <form action="agregar" method ="get">
+   <form action="agregarAlum" method ="get">
 	   Codigo <input type="text" placeholder="Codigo" name="codigo"><br>
 	   Contraseña <input type="text" placeholder="Contraseña" name="contrasena"><br>
 	   Nombres <input type="text" placeholder="Nombres" name="nombres"><br>
@@ -24,12 +24,12 @@
 			<option value="femenino">Femenino</option>
 		</select><br>
    		Año
-	   <select name="año">
-			<option value="1°">1°</option>
-			<option value="2°">2°</option>
-			<option value="3°">3°</option>
-			<option value="4°">4°</option>
-			<option value="5°">5°</option>
+	   <select name="anho">
+			<option value="1ro" >1ro</option>
+			<option value="2do">2do</option>
+			<option value="3ro">3ro</option>
+			<option value="4to">4to</option>
+			<option value="5to" >5to</option>
 		</select><br>
    		
    		Agregar foto: 

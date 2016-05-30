@@ -3,6 +3,7 @@ package pw2;
 import java.io.IOException;
 
 import javax.jdo.PersistenceManager;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.http.*;
 
 import pw2.PMF;
@@ -34,7 +35,7 @@ public class agregarAlum extends HttpServlet {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		try{
 			pm.makePersistent(a);
-			resp.getWriter().println("Datos grabados correctamente");
+			resp.sendRedirect("comoAdmi.jsp");
 		}catch(Exception e){
 			System.out.println(e);
 			resp.getWriter().println("Ocurrió un error, <a href='index.jsp'>vuelva a intentarlo</a>");
