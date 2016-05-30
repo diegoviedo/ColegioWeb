@@ -33,11 +33,9 @@ public class agregarAlum extends HttpServlet {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		try{
 			pm.makePersistent(a);
-<<<<<<< HEAD
-			resp.sendRedirect("../alumnoCorrecto.jsp");
-=======
-			resp.sendRedirect("comoAdmi.jsp");
->>>>>>> origin/master
+
+			resp.sendRedirect("alumnoCorrecto.jsp");
+
 		}catch(Exception e){
 			System.out.println(e);
 			resp.sendRedirect("../alumnoError.jsp");
