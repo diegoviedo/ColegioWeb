@@ -35,8 +35,8 @@
 	
 			<ul class="nav">
 				<li><a href="inicio.jsp">INICIO</a></li>
-				<li><a href="nosotros.jsp"> ¿QUIENES SOMOS?</a></li>
-				<li><a href="servicios.jsp">SERVICIOS</a></li>
+				<li><a href="menuNosotros.jsp"> ¿QUIENES SOMOS?</a></li>
+				<li><a href="menuServicios.jsp">SERVICIOS</a></li>
 				<li><a href="alumnoEliminar.jsp">PASTORAL</a></li>
 				<li><a href="">PERSONAL</a></li>
 				<li><a href="">AGENDA</a></li>
