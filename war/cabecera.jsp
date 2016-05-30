@@ -10,7 +10,7 @@
 		<div class=sesiones>
 		<a href="administrador.html"><img src="imagenes/administrador.png" class="imagenSesion"></a>
 	
-		<a href="#"><img src="imagenes/docente.png" class="imagenSesion"></a>
+		<a href="docente.html"><img src="imagenes/docente.png" class="imagenSesion"></a>
 	
 		<a href="#"><img src="imagenes/alumno.png" class="imagenSesion"></a>
 		</div>
