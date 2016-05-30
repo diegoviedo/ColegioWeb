@@ -73,7 +73,7 @@ public class modificarDoc extends HttpServlet {
 						
 								
 						out.print("<option value='5to'");
-						if(p.getTutorAnho().equals("5too")){out.print("selected");}
+						if(p.getTutorAnho().equals("5to")){out.print("selected");}
 						out.print(">5to</option>");
 						
 						

@@ -7,6 +7,7 @@
     <title>Agregar Alumno</title>
    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
+  	
    <h1> AGREGAR ALUMNO </h1>
    
    <form action="agregarAlum" method ="get">
@@ -23,22 +24,22 @@
 			<option value="femenino">Femenino</option>
 		</select><br>
    		Año
-	   <select name="año">
-			<option value="1°">1°</option>
-			<option value="2°">2°</option>
-			<option value="3°">3°</option>
-			<option value="4°">4°</option>
-			<option value="5°">5°</option>
+	   <select name="anho">
+			<option value="1ro" >1ro</option>
+			<option value="2do">2do</option>
+			<option value="3ro">3ro</option>
+			<option value="4to">4to</option>
+			<option value="5to" >5to</option>
 		</select><br>
    		
    		Agregar foto: 
    		<input type="file"  name="archivo"><br>
-	
+   
+   
+  	 	
     
     <input type="submit" value ="REGISTRAR">
    </form>
-   
-   
    <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>

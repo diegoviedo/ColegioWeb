@@ -3,6 +3,7 @@ package pw2;
 import java.io.IOException;
 
 import javax.jdo.PersistenceManager;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.http.*;
 
 import pw2.PMF;
@@ -32,7 +33,11 @@ public class agregarAlum extends HttpServlet {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		try{
 			pm.makePersistent(a);
+<<<<<<< HEAD
 			resp.sendRedirect("../alumnoCorrecto.jsp");
+=======
+			resp.sendRedirect("comoAdmi.jsp");
+>>>>>>> origin/master
 		}catch(Exception e){
 			System.out.println(e);
 			resp.sendRedirect("../alumnoError.jsp");

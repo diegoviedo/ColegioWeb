@@ -83,13 +83,11 @@ public class modificar extends HttpServlet {
 						
 								
 						out.print("<option value='5to'");
-						if(p.getAnho().equals("5too")){out.print("selected");}
+						if(p.getAnho().equals("5to")){out.print("selected");}
 						out.print(">5to</option>");
 						
 								
-						
-								
-								
+						System.out.println(p.getAnho());	
 								
 								
 								
@@ -101,11 +99,11 @@ public class modificar extends HttpServlet {
 					   
 					  	 	
 					    
-					    "<input type='submit' value ='REGISTRAR'>"+
+					    "<input type='submit' value ='MODIFICAR'>"+
 					   "</form>");
 						
 						pm.deletePersistent(p);
-						System.out.println("YA BORRO");
+						
 						}catch(Exception e){
 								
 							}finally{
