@@ -10,7 +10,11 @@
 		<div class=sesiones>
 		<a href="comoAdmi.jsp"><img src="imagenes/administrador.png" class="imagenSesion"></a>
 	
+<<<<<<< HEAD
 		<a href="comoDocente.jsp"><img src="imagenes/docente.png" class="imagenSesion"></a>
+=======
+		<a href="docente.html"><img src="imagenes/docente.png" class="imagenSesion"></a>
+>>>>>>> origin/master
 	
 		<a href="#"><img src="imagenes/alumno.png" class="imagenSesion"></a>
 		</div>
