@@ -5,14 +5,6 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
-	<servlet>
-		<servlet-name>agregar</servlet-name>
-		<servlet-class>pw2.agregar</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>agregar</servlet-name>
-		<url-pattern>/agregar</url-pattern>
-	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>verAlumnos</servlet-name>

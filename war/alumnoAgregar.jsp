@@ -9,7 +9,7 @@
   	<jsp:include page="cabecerA.jsp"></jsp:include>
    <h1> AGREGAR ALUMNO </h1>
    
-   <form action="agregar" method ="get">
+   <form action="agregarAlum" method ="get">
 	   Codigo <input type="text" placeholder="Codigo" name="codigo"><br>
 	   Contraseña <input type="text" placeholder="Contraseña" name="contrasena"><br>
 	   Nombres <input type="text" placeholder="Nombres" name="nombres"><br>

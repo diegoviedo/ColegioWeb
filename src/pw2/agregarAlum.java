@@ -28,24 +28,18 @@ public class agregarAlum extends HttpServlet {
 		a.setDireccion(direccion);
 		a.setSexo(sexo);
 		a.setAnho(anho);
-		resp.getWriter().print("<!DOCTYPE html>"		 
-				+ "<html><body>");
-
+		
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		try{
 			pm.makePersistent(a);
-			resp.getWriter().println("Datos grabados correctamente");
+			resp.sendRedirect("../alumnoCorrecto.jsp");
 		}catch(Exception e){
 			System.out.println(e);
-			resp.getWriter().println("Ocurrió un error, <a href='index.jsp'>vuelva a intentarlo</a>");
+			resp.sendRedirect("../alumnoError.jsp");
 		}finally{
 			pm.close();
 		}
 		
-		
-		resp.getWriter().print("<form action='comoAdmi.jsp'>"+
-		
-				"<input type='submit' value='REGRESAR AL MENU'></form>");
 		
 	}
 }
