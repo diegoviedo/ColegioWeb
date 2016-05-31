@@ -40,6 +40,8 @@ public class modificarDoc extends HttpServlet {
 					   	   "Sexo"+
 						   "<select name='sexo'>");
 						out.print("<option value='masculino'");
+						
+						
 						if(p.getSexo().equals("masculino")){out.print("selected");}
 						out.print(">Masculino</option>");
 						

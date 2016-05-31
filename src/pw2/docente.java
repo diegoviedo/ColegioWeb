@@ -14,6 +14,7 @@ public class docente {
 		this.apellidos=apellidos;
 		this.direccion=direccion;
 		this.tutorAnho=tutorAnho;
+		this.sexo=sexo;
 		this.curso=curso;
 		this.correo=correo;
 		this.telefono=telefono;
