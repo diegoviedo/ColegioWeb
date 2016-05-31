@@ -175,6 +175,30 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	
+		<servlet>
+		<servlet-name>agregandoTarea</servlet-name>
+		<servlet-class>pw2.agregandoTarea</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>agregandoTarea</servlet-name>
+		<url-pattern>/agregandoTarea</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>verTareas</servlet-name>
+		<servlet-class>pw2.verTareas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>verTareas</servlet-name>
+		<url-pattern>/verTareas</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
 	
 	
 	

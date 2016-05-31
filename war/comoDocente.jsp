@@ -22,6 +22,10 @@
     <input type="submit" value ="Agregar Tarea">
    </form>
    
+       <form action="verTareas" method ="get">
+    <input type="submit" value ="Ver Tareas">
+   </form>
+   
    
  
     
