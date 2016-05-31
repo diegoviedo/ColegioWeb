@@ -34,7 +34,7 @@ public class cambios extends HttpServlet {
 				}
 				try{
 					
-					RequestDispatcher rd = req.getRequestDispatcher("/comoAdmi.jsp");
+					RequestDispatcher rd = req.getRequestDispatcher("comoAdmi.jsp");
 					rd.forward(req, resp);
 				}catch(Exception e){
 					System.out.println(e);

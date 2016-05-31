@@ -7,6 +7,11 @@
     <title>Comunicado</title>
    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
+  	<div class=cuerpo2>
+	<div class=tituloSesion>
+		<h1>ADMINISTRADOR</h1>
+	</div>
+	<div class=bloqueDe2>
    <h1> AGREGAR COMUNICADO </h1>
    
    <form action="agregarComunicado" method ="get">
@@ -20,8 +25,9 @@
    </form>
 	 	
     
-    <input type="submit" value ="REGISTRAR">
-   </form>
+    
+   </div>
+   </div>
    <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>

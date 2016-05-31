@@ -7,13 +7,19 @@
     <title>Agregar Alumno</title>
    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
-  	<h1>DOCENTE</h1>
+  	<div class=cuerpo2>
+	<div class=tituloSesion>
+		<h1>DOCENTE</h1>
+	</div>
+	
+	<div class=bloqueDe3>
    <h2> NOTAS </h2>
    
    <form action="agregarNotas" method ="get">
     <input type="submit" value ="Agregar Notas">
    </form>
-   
+   </div>
+	<div class=bloqueDe3>
    
     
    <h2> TAREAS </h2>
@@ -26,9 +32,10 @@
     <input type="submit" value ="Ver Tareas">
    </form>
    
-   
+   </div>
+	
  
-    
+  </div>  
    <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>

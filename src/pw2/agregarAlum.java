@@ -42,7 +42,7 @@ public class agregarAlum extends HttpServlet {
 
 		}catch(Exception e){
 			System.out.println(e);
-			resp.sendRedirect("../alumnoError.jsp");
+			resp.sendRedirect("alumnoError.jsp");
 		}finally{
 			pm.close();
 		}

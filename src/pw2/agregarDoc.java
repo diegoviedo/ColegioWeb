@@ -25,13 +25,11 @@ public class agregarDoc extends HttpServlet {
 		
 		docente d = new docente(codigo,contrasena,nombres,apellidos,direccion,sexo,tutorAnho,curso,correo,telefono);
 		
-		resp.getWriter().print("<!DOCTYPE html>"		 
-				+ "<html><body>");
-
+		
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		try{
 			pm.makePersistent(d);
-			resp.getWriter().println("Datos grabados correctamente");
+			resp.sendRedirect("alumnoCorrecto.jsp");
 		}catch(Exception e){
 			System.out.println(e);
 			resp.getWriter().println("Ocurrió un error, <a href='index.jsp'>vuelva a intentarlo</a>");
@@ -40,9 +38,7 @@ public class agregarDoc extends HttpServlet {
 		}
 		
 		
-		resp.getWriter().print("<form action='comoAdmi.jsp'>"+
 		
-				"<input type='submit' value='REGRESAR AL MENU'></form>");
 		
 	}
 }
