@@ -15,7 +15,7 @@
 	<div class=bloqueDe3>
    <h2> NOTAS </h2>
    
-   <form action="agregarNotas" method ="get">
+   <form action="notasAlumnos" method ="get">
     <input type="submit" value ="Agregar Notas">
    </form>
    </div>

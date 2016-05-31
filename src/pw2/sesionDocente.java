@@ -18,7 +18,7 @@ public class sesionDocente extends HttpServlet {
 		
 		
 		String codigo = req.getParameter("codigo");
-		String contrasena = req.getParameter("contrasena");
+		String contrasena = req.getParameter("pass");
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		resp.setContentType("text/html");
 		

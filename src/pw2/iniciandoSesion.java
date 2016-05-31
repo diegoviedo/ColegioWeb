@@ -12,7 +12,8 @@ public class iniciandoSesion extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		String action="";
 		String boton = req.getParameter("boton");
-		if(boton.equals("COMO DOCENTE"))action="sesionDocente";
+		if(boton.equals("COMO DOCENTE"))
+			action="sesionDocente";
 		resp.setContentType("text/html");
 		
 		out.print("<form action='"+action+"'>");
