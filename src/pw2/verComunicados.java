@@ -25,7 +25,7 @@ public class verComunicados extends HttpServlet{
 		resp.getWriter().print("<html>"
 				  +"<head>"
 				    +"<meta http-equiv='content-type' content='text/html; charset=UTF-8'>"
-				    +"<title>ESCRIBE TITULO AQUI</title>"
+				    +"<title>Ver Comunicados</title>"
 				   
 				+"<link rel='stylesheet' type='text/css' href='../estilos/inicioCSS.css' media='screen' />"
 				+"</head>"
@@ -37,7 +37,7 @@ public class verComunicados extends HttpServlet{
 						+"<a href='inicio.jsp'><img src='../imagenes/logo.png' id=logo></a></div >"
 						+"<div class=sesiones>"
 						+"<a href='comoAdmi.jsp'><img src='../imagenes/administrador.png' class='imagenSesion'></a>"
-						+"<a href='comoDocente.jsp'><img src='../imagenes/docente.png' class='imagenSesion'></a>"
+						+"<a href='docenteHtml'><img src='../imagenes/docente.png' class='imagenSesion'></a>"
 						+"<a href='#'><img src='../imagenes/alumno.png' class='imagenSesion'></a>"
 						+"</div>"
 						+"<div class=redes>"

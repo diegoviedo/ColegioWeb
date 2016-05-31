@@ -25,7 +25,7 @@ public class verDocentes extends HttpServlet{
 		out.print("<html>"
 				  +"<head>"
 				    +"<meta http-equiv='content-type' content='text/html; charset=UTF-8'>"
-				    +"<title>ESCRIBE TITULO AQUI</title>"
+				    +"<title>Ver Docentes</title>"
 				   
 				+"<link rel='stylesheet' type='text/css' href='../estilos/inicioCSS.css' media='screen' />"
 				+"</head>"

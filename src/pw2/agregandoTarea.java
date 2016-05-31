@@ -5,7 +5,7 @@ import java.util.Date;
 
 import javax.jdo.PersistenceManager;
 import javax.servlet.http.*;
-
+import pw2.tarea;
 import pw2.PMF;
 
 @SuppressWarnings("serial")
@@ -36,7 +36,7 @@ public class agregandoTarea extends HttpServlet {
 			resp.sendRedirect("comoDocente.jsp");
 		}catch(Exception e){
 			System.out.println(e);
-			resp.getWriter().println("Ocurrió un error, <a href='index.jsp'>vuelva a intentarlo</a>");
+			resp.getWriter().println("Ocurrió un error, <a href='comoDocente.jsp'>vuelva a intentarlo</a>");
 		}finally{
 			pm.close();
 		}

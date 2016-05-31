@@ -9,9 +9,6 @@
 		</div >
 		<div class=sesiones>
 		<a href="comoAdmi.jsp"><img src="imagenes/administrador.png" class="imagenSesion"></a>
-	
-
-	
 
 		<a href="docente.html"><img src="imagenes/docente.png" class="imagenSesion"></a>
 

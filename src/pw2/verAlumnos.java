@@ -38,7 +38,7 @@ public class verAlumnos extends HttpServlet{
 						+"<a href='inicio.jsp'><img src='../imagenes/logo.png' id=logo></a></div >"
 						+"<div class=sesiones>"
 						+"<a href='comoAdmi.jsp'><img src='../imagenes/administrador.png' class='imagenSesion'></a>"
-						+"<a href='comoDocente.jsp'><img src='../imagenes/docente.png' class='imagenSesion'></a>"
+						+"<a href='docente.html'><img src='../imagenes/docente.png' class='imagenSesion'></a>"
 						+"<a href='#'><img src='../imagenes/alumno.png' class='imagenSesion'></a>"
 						+"</div>"
 						+"<div class=redes>"

@@ -1,25 +1,24 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello App Engine</title>
-  </head>
-
-  <body>
+    <title>Agregar Alumno</title>
+   
+  	<jsp:include page="cabecerA.jsp"></jsp:include>
+  	<div class=cuerpo2>
+	<div class=tituloSesion>
+		<h1>DOCENTE</h1>
+	</div>
+	<div class=bloqueDe2>
    <h1> AGREGAR TAREA </h1>
    
    <form action="agregandoTarea" method ="get">
 	   
 	   <textarea rows="4" cols="50" name="tarea">
 		</textarea><br>
-  	 	TIEMPO LIMITE   DIA  :
+  	 	TIEMPO LIMITE  <br> DIA  :
   	 	<select name ="dia">
   	 	<option value = "1">1</option>
   	 	<option value = "2">2</option>
@@ -68,6 +67,7 @@
   	 	<option value = "10">Noviembre</option>
   	 	<option value = "11">Diciembre</option>
 		</select>
+		<BR>
 		
 		HORA  : 
 		<select name ="hora">
@@ -163,8 +163,13 @@
 		
 		
 		
-    
+    <br>
     <input type="submit" value ="PUBLICAR">
    </form>
+   
+ 
+   </div>
+   </div>
+   <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>

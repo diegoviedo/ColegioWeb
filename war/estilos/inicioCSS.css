@@ -47,6 +47,7 @@
 	width:1050px;
 }
 .cuerpo2{
+	 align-content: center;
 	width:1050px;
 	
 }
@@ -60,7 +61,7 @@ body {
 	text-align:center; 
 	color:#6c7aca;
 	border: 5px dashed #f4f4ff;
-
+	
 	height:100px;
 	width:400px;
 	background-color: #222B5E;
