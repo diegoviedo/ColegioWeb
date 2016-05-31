@@ -37,6 +37,7 @@ public class cambiosDoc extends HttpServlet {
 					RequestDispatcher rd = req.getRequestDispatcher("/comoAdmi.jsp");
 					rd.forward(req, resp);
 				}catch(Exception e){
+					RequestDispatcher rd = req.getRequestDispatcher("/comoAdmi.jsp");
 					System.out.println(e);
 				}finally{
 					if( pm.currentTransaction().isActive() ){

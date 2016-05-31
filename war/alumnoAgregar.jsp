@@ -7,24 +7,28 @@
     <title>Agregar Alumno</title>
    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
-  	
-   <h1> AGREGAR ALUMNO </h1>
+  	<div class=cuerpo2>
+	<div class=tituloSesion>
+		<h1>ADMINISTRADOR</h1>
+	</div>
+	<div class=bloqueDe2>
+   	<h1> AGREGAR ALUMNO </h1>
    
    <form action="agregarAlum" method ="get">
-	   Codigo <input type="text" placeholder="Codigo" name="codigo"><br>
-	   Contraseña <input type="text" placeholder="Contraseña" name="contrasena"><br>
-	   Nombres <input type="text" placeholder="Nombres" name="nombres"><br>
+	   Codigo    <input type="text" placeholder="Codigo" name="codigo"><br>
+	   Contraseña<input type="text" placeholder="Contraseña" name="contrasena"><br>
+	   Nombres   <input type="text" placeholder="Nombres" name="nombres"><br>
 	   Apellidos <input type="text" placeholder="Apellidos" name="apellidos"><br>
 	   Direccion <input type="text" placeholder="Direccion" name="direccion"><br>
 	   
  
-   	   Sexo
-	   <select name="sexo">
+   	   Sexo      
+   	   <select name="sexo">
 			<option value="masculino">Masculino</option>
 			<option value="femenino">Femenino</option>
 		</select><br>
-   		Año
-	   <select name="anho">
+   		Año      
+   		<select name="anho">
 			<option value="1ro" >1ro</option>
 			<option value="2do">2do</option>
 			<option value="3ro">3ro</option>
@@ -37,9 +41,12 @@
    
    
   	 	
-    
+    <br>
     <input type="submit" value ="REGISTRAR">
    </form>
+   
+   </div>
+   </div>
    <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>

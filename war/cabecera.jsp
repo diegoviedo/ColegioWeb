@@ -33,9 +33,6 @@
 		<br>
 		<br>
 		<div class=menu>
-		
-		
-	
 	
 			<ul class="nav">
 				<li><a href="inicio.jsp">INICIO</a></li>
@@ -46,7 +43,6 @@
 				<li><a href="">AGENDA</a></li>
 				<li><a href="">ATENCION A PADRES</a></li>
 				<li><a href="">ADMISION</a></li>
-	
 			</ul>
 			
 		<BR>
@@ -76,5 +72,5 @@
 				src="imagenes/scroll6.jpg" class=scrollImag >
 			
 		</marquee>
-		
+		</div>
 	<div class=cuerpo>

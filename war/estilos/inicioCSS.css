@@ -46,19 +46,65 @@
 .cuerpo{
 	width:1050px;
 }
+.cuerpo2{
+	width:1050px;
+	background-color: #222B5E;	
+}
+body {
+	background-image: URL('http://us.123rf.com/450wm/tupungato/tupungato1207/tupungato120700029/14341278-de-fondo-sin-fisuras-con-el-icono-de-la-escuela-objetos-y-s-mbolos-educaci-n-patr-n-de-dibujo.jpg?ver=6');
+    background-repeat: repeat;   
+}
+
+.tituloSesion{
+	padding:50px 0px 0px 0px;
+	text-align:center; 
+	color:#6c7aca;
+	border: 5px dashed #f4f4ff;
+
+	height:100px;
+	width:400px;
+	background-color: #222B5E;
+	margin:110px 0px 100px 100px;
+	float: left;
+	
+}
+.bloqueDe3{
+	
+	text-align:center; 
+	color: #222B5E;
+	border: 10px  outset #222B5E;
+	
+	height:100px;
+	width:310px;
+	background-color: white;
+	margin:10px 5px 0px 100px;
+	float: left;
+	
+}
+.bloqueDe2{
+	padding:80px 20px 0px 20px;
+	text-align:justify; 
+	color: #222B5E;
+	border: 10px  outset #222B5E;
+	height:280px;
+	width:410px;
+	background-color: white;
+	margin:10px 10px 10px 10px;
+	float: left;
+	
+}
+
+
+
+
+
+
 #bien {
 	margin-left: 300px;
 }
 
 
 
-
-body {
-	background-image: URL('http://us.123rf.com/450wm/tupungato/tupungato1207/tupungato120700029/14341278-de-fondo-sin-fisuras-con-el-icono-de-la-escuela-objetos-y-s-mbolos-educaci-n-patr-n-de-dibujo.jpg?ver=6');
-    background-repeat: repeat;
-   
-   
-}
 
 p {
 	

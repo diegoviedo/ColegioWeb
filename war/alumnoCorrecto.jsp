@@ -7,10 +7,16 @@
     <title>CORRECTO</title>
    
   	<jsp:include page="cabecerA.jsp"></jsp:include>
-   <h1> ADMINISTRADOR </h1>
-  	<h2> LA OPERACION SE REALIZO CORRECTAMENTE </h2>
+  	<div class=cuerpo2>
+	<div class=tituloSesion>
+		<h1>ADMINISTRADOR</h1>
+	</div>
+	<div class=bloqueDe2>
+  	
+  	<h3> LA OPERACION SE REALIZO CORRECTAMENTE </h2>
   	<a href="comoAdmi.jsp" ><h2> REGRESAR A MENU </h2></a>
-  
+   </div>
+   </div>
    <jsp:include page="pieDePagina.jsp"></jsp:include>
   </body>
 </html>
